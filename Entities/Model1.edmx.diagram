@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fc5263c93ffa46818ca46f9c544e06d7" Name="Diagram1">
+        <EntityTypeShape EntityType="shueDEModel.Category" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="shueDEModel.Client" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="shueDEModel.DeliveryAdress" Width="1.5" PointX="0.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="shueDEModel.Manufacturer" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="shueDEModel.OrderDetails" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="shueDEModel.Orders" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="shueDEModel.Product" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="shueDEModel.Role" Width="1.5" PointX="1.5" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="shueDEModel.Supplier" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="shueDEModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="shueDEModel.User" Width="1.5" PointX="3.75" PointY="14" IsExpanded="true" />
+        <AssociationConnector Association="shueDEModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="shueDEModel.FK_Client_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="shueDEModel.FK_Orders_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="shueDEModel.FK_Orders_DeliveryAdress" ManuallyRouted="false" />
+        <AssociationConnector Association="shueDEModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="shueDEModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="shueDEModel.FK_OrderDetails_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="shueDEModel.FK_Product_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="shueDEModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
